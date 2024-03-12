@@ -1,0 +1,23 @@
+div.files {
+  margin: 10px;
+}
+div.files div.dirname {
+  position: fixed;
+  top: 0;
+  left: 10;
+}
+div.files div.filelist {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+div.filelist div.dir:hover {
+  background-color: #f0f0f0;
+}
+div.filelist div.dir {
+  text-decoration: underline;
+  cursor: pointer;
+}
+div.filelist div.file {
+  cursor: not-allowed;
+}
